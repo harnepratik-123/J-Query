@@ -1,0 +1,20 @@
+<!-- Create a button,  on click it should display image and if you click again it should hide image -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script>
+			$(document).ready(function(){
+			$("button").click(function(){
+			$("#id").fadeToggle();
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<center>
+			<button>click</button><br/><br/>
+			<img id= "id" src="p.jpg" width="300" height="300">
+		</center>
+	</body>
+</html>

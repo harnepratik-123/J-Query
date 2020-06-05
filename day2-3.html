@@ -1,0 +1,20 @@
+<!-- Create a button on button click your name which is written in h3 tag will slide up and then it will slide down  -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script>
+		$(document).ready(function(){
+		$("#flip").click(function(){
+		$("#panel").slideToggle("slow");
+			});
+		});
+		</script>
+	</head>
+	<body>
+		<center>
+			<button id="flip">Click</button>
+			<h3 id="panel">Pratik</h3>
+		</center>
+	</body>
+</html>

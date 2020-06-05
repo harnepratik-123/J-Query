@@ -1,0 +1,25 @@
+<!-- Create image on page on button clicks size of image will slowly increase -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script>
+			$(document).ready(function(){
+			$("button").click(function(){
+			var div = $("img");  
+			div.animate({
+				left: '250px',
+				height: '+=150px',
+				width: '+=150px'
+					});
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<center>
+			<button>click</button><br/><br/>
+			<img id= "id" src="p.jpg" width="300" height="300">
+		</center>
+	</body>
+</html>
